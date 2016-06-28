@@ -108,6 +108,10 @@ namespace SubstringCalculator
             return subStringList;
         }
 
+        public static IEnumerable<string> charArrayUniqueSubstrings(string rootString) {
+            return new List<string>();
+        }
+
         public static IEnumerable<string> GetAllSubstrings(string rootString)
         {
             var subStringList = new List<string>();
