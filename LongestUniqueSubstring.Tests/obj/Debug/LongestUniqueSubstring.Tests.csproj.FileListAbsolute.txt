@@ -6,3 +6,11 @@ C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\LongestUniqueSubstring.Te
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.dll
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\bin\Debug\LongestUniqueSubstring.Tests.dll
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\bin\Debug\LongestUniqueSubstring.Tests.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\bin\Debug\ConsoleApplication1.exe
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.dll
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\LongestUniqueSubstring.Tests\obj\Debug\LongestUniqueSubstring.Tests.pdb

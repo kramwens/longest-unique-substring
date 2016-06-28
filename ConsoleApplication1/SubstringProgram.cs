@@ -13,10 +13,11 @@ namespace SubstringCalculator
         {
             Console.Out.WriteLine("Enter a String to find out the longest, unique substring!");
             var rootString = Console.In.ReadLine();
+            var numIterations = 1000;
             Console.WriteLine();
 
-            var res1 = SubstringCalculator.RunTest(SubstringCalculator.UsingDistinctUniqueSubstrings, rootString);
-            var res2 = SubstringCalculator.RunTest(SubstringCalculator.BruteForceUniqueSubstrings, rootString);
+            var res1 = SubstringCalculator.RunTest(SubstringCalculator.UsingDistinctUniqueSubstrings, rootString, numIterations);
+            var res2 = SubstringCalculator.RunTest(SubstringCalculator.BruteForceUniqueSubstrings, rootString, numIterations);
 
             printResults(res1);
             printResults(res2);

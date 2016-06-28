@@ -17,7 +17,7 @@ namespace SubstringCalculatorTests
                 return new List<String>();
             };
 
-            var result = SubstringCalculator.SubstringCalculator.RunTest(dummy, "Tests are useful");
+            var result = SubstringCalculator.SubstringCalculator.RunTest(dummy, "Tests are useful", 1);
 
             Assert.AreEqual(result.ElapsedTime, 300, 5, "The Timer is malfunctioning!");
         }
@@ -33,5 +33,7 @@ namespace SubstringCalculatorTests
             Assert.AreEqual(res2.First(), "iI", "BruteForceUniqueSubstrings is case insensitive.");
             Assert.AreEqual(res3.First(), "iI", "BruteForceUniqueSubstrings is case insensitive.");
         }
+        
     }
+
 }

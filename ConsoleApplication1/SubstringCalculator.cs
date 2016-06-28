@@ -15,13 +15,15 @@ namespace SubstringCalculator
 
     public class SubstringCalculator
     {
-        public static SubstringResult RunTest(Func<string, IEnumerable<string>> method, string rootString)
+        public static SubstringResult RunTest(Func<string, IEnumerable<string>> method, string rootString, int iterations)
         {
             var result = new SubstringResult();
             Stopwatch timer = new Stopwatch();
 
             timer.Start();
-            result.LongestSubstrings = method(rootString);
+            for(int i = 0; i < iterations; i++) { 
+                result.LongestSubstrings = method(rootString);
+            }
             timer.Stop();
 
             result.MethodName = method.Method.Name;

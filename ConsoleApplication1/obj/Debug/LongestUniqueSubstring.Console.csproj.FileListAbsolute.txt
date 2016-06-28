@@ -4,3 +4,9 @@ C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\ConsoleApplication1\bin\D
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 C:\Users\Sam\OneDrive\GitRepo\longest-unique-substring\ConsoleApplication1\obj\Debug\LongestUniqueSubstring.Console.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\longest-unique-substring\longest-unique-substring\ConsoleApplication1\obj\Debug\LongestUniqueSubstring.Console.csprojResolveAssemblyReference.cache
