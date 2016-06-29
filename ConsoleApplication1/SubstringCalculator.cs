@@ -59,7 +59,7 @@ namespace SubstringCalculator
             //Get a complete list of substrings
             while (index < length)
             {
-                while (i > index)
+                while (i > 0)
                 {
                     bool toAdd = true;
                     tempString = rootString.Substring(index, i);
@@ -99,7 +99,7 @@ namespace SubstringCalculator
 
             while (index < length)
             {
-                while (i > index)
+                while (i >= maxSubstringLength)
                 {
                     subString = rootString.Substring(index, i);
                     if (subString.Distinct().Count() == subString.Length)

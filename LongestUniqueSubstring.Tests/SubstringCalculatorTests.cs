@@ -76,9 +76,9 @@ namespace SubstringCalculatorTests
             var res2 = SubstringCalculator.SubstringCalculator.RunTest(SubstringCalculator.SubstringCalculator.BruteForceUniqueSubstrings, testString, 1);
             var res3 = SubstringCalculator.SubstringCalculator.RunTest(SubstringCalculator.SubstringCalculator.charArrayUniqueSubstrings, testString, 1);
 
-            Assert.IsTrue(res1.LongestSubstrings.Count() == 3, res1.MethodName + " returned an incorrect number of results: " + string.Join(", ", res1.LongestSubstrings));
-            Assert.IsTrue(res2.LongestSubstrings.Count() == 3, res2.MethodName + " returned an incorrect number of results: " + string.Join(", ", res2.LongestSubstrings));
-            Assert.IsTrue(res3.LongestSubstrings.Count() == 3, res3.MethodName + " returned an incorrect number of results.: " + string.Join(", ", res3.LongestSubstrings));
+            Assert.IsTrue(res1.LongestSubstrings.Count() == 2, res1.MethodName + " returned an incorrect number of results: " + string.Join(", ", res1.LongestSubstrings));
+            Assert.IsTrue(res2.LongestSubstrings.Count() == 2, res2.MethodName + " returned an incorrect number of results: " + string.Join(", ", res2.LongestSubstrings));
+            Assert.IsTrue(res3.LongestSubstrings.Count() == 2, res3.MethodName + " returned an incorrect number of results.: " + string.Join(", ", res3.LongestSubstrings));
 
             Assert.AreEqual(res1, res2, res1.MethodName + " and " + res2.MethodName + " are not equal");
             Assert.AreEqual(res2, res3, res2.MethodName + " and " + res3.MethodName + " are not equal");
