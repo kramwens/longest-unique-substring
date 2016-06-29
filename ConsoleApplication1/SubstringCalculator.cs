@@ -7,10 +7,25 @@ namespace SubstringCalculator
 {
     public class SubstringResult
     {
-        
         public IEnumerable<String> LongestSubstrings { get; set; }
         public long ElapsedTime { get; set; }
         public string MethodName { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            var compareObj = obj as SubstringResult;
+            if (obj != null)
+            {
+                return LongestSubstrings.SequenceEqual(compareObj.LongestSubstrings);
+            }
+
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return LongestSubstrings.GetHashCode();
+        }
     }
 
     public class SubstringCalculator
@@ -21,7 +36,8 @@ namespace SubstringCalculator
             Stopwatch timer = new Stopwatch();
 
             timer.Start();
-            for(int i = 0; i < iterations; i++) { 
+            for (int i = 0; i < iterations; i++)
+            {
                 result.LongestSubstrings = method(rootString);
             }
             timer.Stop();
@@ -108,8 +124,48 @@ namespace SubstringCalculator
             return subStringList;
         }
 
-        public static IEnumerable<string> charArrayUniqueSubstrings(string rootString) {
-            return new List<string>();
+        public static IEnumerable<string> charArrayUniqueSubstrings(string rootString)
+        {
+            HashSet<Char> set = new HashSet<char>();
+            var longestSubstrings = new List<string>();
+
+            int start = 0;
+            int end = 0;
+            int maxLength = 0;
+            int length;
+
+            while (end < rootString.Length)
+            {
+                if (!set.Contains(rootString[end]))
+                {
+                    set.Add(rootString[end]);
+                }
+                else
+                {
+                    while (rootString[start] != rootString[end])
+                    {
+                        set.Remove(rootString[start]);
+                        start++;
+                    }
+                    start++;
+                }
+
+                length = end - start + 1;
+
+                if (length > maxLength)
+                {
+                    longestSubstrings.Clear();
+                }
+                if (length >= maxLength)
+                {
+                    longestSubstrings.Add(rootString.Substring(start, length));
+                    maxLength = length;
+                }
+
+                end++;
+            }
+
+            return longestSubstrings;
         }
 
         public static IEnumerable<string> GetAllSubstrings(string rootString)

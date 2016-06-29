@@ -18,9 +18,11 @@ namespace SubstringCalculator
 
             var res1 = SubstringCalculator.RunTest(SubstringCalculator.UsingDistinctUniqueSubstrings, rootString, numIterations);
             var res2 = SubstringCalculator.RunTest(SubstringCalculator.BruteForceUniqueSubstrings, rootString, numIterations);
+            var res3 = SubstringCalculator.RunTest(SubstringCalculator.charArrayUniqueSubstrings, rootString, numIterations);
 
             printResults(res1);
             printResults(res2);
+            printResults(res3);
 
             Console.WriteLine("All Finished, Press Y to run again or any other key to Exit");
             if (Console.ReadKey().Key == ConsoleKey.Y)
