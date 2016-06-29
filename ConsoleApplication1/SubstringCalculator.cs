@@ -5,6 +5,9 @@ using System.Linq;
 
 namespace SubstringCalculator
 {
+    /// <summary>
+    /// A results object when using the substring calculator test.
+    /// </summary>
     public class SubstringResult
     {
         public IEnumerable<String> LongestSubstrings { get; set; }
